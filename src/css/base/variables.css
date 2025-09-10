@@ -1,0 +1,159 @@
+:root {
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-900: #1f1f1f;
+  --color-gray-800: #3b3b3b;
+  --color-gray-700: #555;
+  --color-gray-600: #4f4f4f;
+  --color-gray-500: #777;
+  --color-gray-400: #6d6d6d;
+  --color-gray-300: #888;
+  --color-gray-200: #b0b0b0;
+  --color-gray-100: #f5f5f5;
+
+  --color-success: #3c9f7d;
+  --color-error: #d34d4d;
+  --color-warning: #d78f2b;
+  --color-info: #5b8def;
+
+  /* Font Family */
+  --font-family-base: "Poppins", Arial, sans-serif;
+  --font-family-heading: "Black Mango Variable", serif;
+
+  /* Font Size */
+  --font-size-xs: 1.2rem;
+  --font-size-sm: 1.4rem;
+  --font-size-base: 1.6rem;
+  --font-size-lg: 1.8rem;
+  --font-size-xl: 2rem;
+  --font-size-2xl: 2.4rem;
+  --font-size-3xl: 3.2rem;
+  --font-size-4xl: 4.8rem;
+  --font-size-5xl: 6.4rem;
+
+  /* Font Weight */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Line Height */
+  --line-height-none: 1;
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+
+  /* Space */
+  --space-xxs: 0.4rem;
+  --space-xs: 0.8rem;
+  --space-sm: 1.2rem;
+  --space-md: 1.6rem;
+  --space-lg: 2.4rem;
+  --space-xl: 3.2rem;
+  --space-xxl: 4.8rem;
+
+  /* Border Radius */
+  --radius-none: 0;
+  --radius-sm: 0.8rem;
+  --radius-base: 1.2rem;
+  --radius-md: 1.6rem;
+  --radius-lg: 2rem;
+  --radius-xl: 3.2rem;
+  --radius-2xl: 4rem;
+  --radius-full: 9999px;
+
+  /* Width */
+  --layout-max-width: 120rem;
+
+  /* Sombras */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+  /* ---------- semantic tokens ---------- */
+  /* Colors */
+  --color-primary: var(--color-gray-900);
+  --color-primary-hover: var(--color-gray-800);
+  --color-primary-light: var(--color-white);
+  --color-primary-light-hover: var(--color-gray-100);
+
+  --bg-primary: var(--color-white);
+
+  --text-primary: var(--color-gray-900);
+  --text-secondary: var(--color-gray-800);
+  --text-tertiary: var(--color-gray-700);
+  --text-muted: var(--color-gray-300);
+  --text-inverse: var(--color-white);
+
+  --card-bg-primary: var(--color-gray-100);
+  --card-bg-primary-hover: var(--color-gray-200);
+  --card-bg-secondary: var(--color-gray-300);
+  --card-bg-secondary-hover: var(--color-gray-400);
+
+  --border-primary: var(--color-gray-300);
+  --border-secondary: var(--color-gray-400);
+  --border-tertiary: var(--color-gray-900);
+  --border-focus: var(--color-gray-500);
+
+  /* Typography */
+  --typography-h1-size: clamp(var(--font-size-3xl), 2vw + 1rem, var(--font-size-5xl));
+  --typography-h1-weight: var(--font-weight-medium);
+  --typography-h1-line-height: var(--line-height-tight);
+
+  --typography-h2-size: clamp(var(--font-size-2xl), 2vw + 0.8rem, var(--font-size-3xl));
+  --typography-h2-weight: var(--font-weight-bold);
+  --typography-h2-line-height: var(--line-height-tight);
+
+  --typography-body-size: clamp(var(--font-size-sm), 0.6vw + 0.5rem, var(--font-size-base));
+  --typography-body-weight: var(--font-weight-normal);
+  --typography-body-line-height: var(--line-height-normal);
+
+  --typography-caption-size: var(--font-size-sm);
+  --typography-caption-weight: var(--font-weight-medium);
+  --typography-caption-line-height: var(--line-height-normal);
+
+  /* Espaçamentos semânticos */
+  --spacing-component-xs: var(--space-xs);
+  --spacing-component-sm: var(--space-sm);
+  --spacing-component-md: var(--space-md);
+  --spacing-component-lg: var(--space-lg);
+  --spacing-component-xl: var(--space-xl);
+
+  --spacing-layout-md: var(--space-md); /* 16px */ 
+  --spacing-layout-lg: var(--space-lg); /* 24px */
+  --spacing-layout-xl: var(--space-xl); /* 32px */
+  --spacing-layout-xxl: var(--space-xxl); /* 48px */
+
+  /* Button */
+  --button-padding-x: clamp(var(--space-lg), 2.5vw, var(--space-xl));
+  --button-padding-y: clamp(var(--space-sm), 1.5vw, var(--space-md));
+  --button-border-radius: var(--radius-full);
+  --button-font-weight: var(--font-weight-medium);
+  --button-font-size: clamp(var(--font-size-base), 1vw + 0.4rem,var(--font-size-lg));
+
+  --button-primary-bg: var(--color-primary);
+  --button-primary-bg-hover: var(--color-primary-hover);
+  --button-primary-text: var(--text-inverse);
+
+  --button-secondary-bg: var(--color-primary-light);
+  --button-secondary-bg-hover: var(--color-primary-light-hover);
+  --button-secondary-text: var(--text-primary);
+  --button-secondary-border: var(--border-tertiary);
+
+  /* Card */
+  --card-padding: clamp(var(--spacing-component-md), 2vw, var(--spacing-component-lg));
+  --card-radius: clamp(var(--radius-base), 1vw, var(--radius-2xl));
+  --card-border: var(--border-primary);
+  --card-shadow: var(--shadow-base);
+  --card-bg: var(--card-bg-primary);
+
+  /* Input */
+  --input-padding-x: var(--spacing-component-md);
+  --input-padding-y: var(--spacing-component-sm);
+  --input-border-radius: var(--radius-base);
+  --input-border: var(--border-primary);
+  --input-border-focus: var(--border-focus);
+  --input-bg: var(--bg-primary);
+  --input-text: var(--text-primary);
+}
