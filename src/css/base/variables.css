@@ -151,9 +151,9 @@
   /* Input */
   --input-padding-x: var(--spacing-component-md);
   --input-padding-y: var(--spacing-component-sm);
-  --input-border-radius: var(--radius-base);
+  --input-border-radius: var(--radius-sm);
   --input-border: var(--border-primary);
   --input-border-focus: var(--border-focus);
   --input-bg: var(--bg-primary);
-  --input-text: var(--text-primary);
+  --input-text: var(--text-secondary);
 }
