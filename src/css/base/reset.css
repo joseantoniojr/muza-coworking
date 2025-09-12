@@ -14,18 +14,19 @@ html{
 
 body{
     font-family: var(--font-family-base, 'Inter', sans-serif);
-    font-size: var(--font-size-base, 1.6rem);
-    font-weight: var(--font-weight-normal, 400);
-    line-height: var(--line-height-normal, 1.5);
-    color: var(--text-primary, #1F1F1F);
+    font-size: clamp(var(--typography-body-size, 1.6rem), 1vw + 1rem, 1.8rem);
+    font-weight: var(--typography-body-weight, 400);
+    line-height: var(--typography-body-line-height, 1.5);
+    color: var(--text-tertiary, #1F1F1F);
     background-color: var(--bg-primary, #FFF);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
+}
+
+h1, h2{
+    font-family: var(--font-family-heading);
 }
 
 h1, h2, h3, h4{
-    font-weight: var(--font-weight-medium, medium);
+    font-weight: var(--font-weight-medium, 500);
     line-height: var(--line-height-tight, 1.25);
     color: var(--text-primary, #1F1F1F);
 }

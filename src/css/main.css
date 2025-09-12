@@ -1,4 +1,5 @@
 
 @import "./base/reset.css";
 @import "./base/variables.css";
-@import '/src/css/components/header.css';
+@import "components/header.css";
+@import "components/hero.css";
