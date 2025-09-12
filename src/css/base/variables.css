@@ -97,7 +97,7 @@
   --border-focus: var(--color-gray-500);
 
   /* Typography */
-  --typography-h1-size: clamp(var(--font-size-3xl), 2vw + 1rem, var(--font-size-5xl));
+  --typography-h1-size: clamp(var(--font-size-3xl), 2vw + 3rem, var(--font-size-5xl));
   --typography-h1-weight: var(--font-weight-medium);
   --typography-h1-line-height: var(--line-height-tight);
 
