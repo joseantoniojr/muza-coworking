@@ -7,16 +7,6 @@
     background-color: var(--bg-primary);
 }
 
-.about__wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: clamp(var(--spacing-component-md), 7.27vw - 0.73rem, var(--spacing-component-3xl));
-}
-
-.about__title{
-    font-size: var(--typography-h2-size);
-}
-
 .about__content{
     display: inline-flex;
     flex-wrap: wrap;

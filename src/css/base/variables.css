@@ -93,7 +93,7 @@
   --card-bg-secondary: var(--color-gray-300);
   --card-bg-secondary-hover: var(--color-gray-400);
 
-  --border-primary: var(--color-gray-300);
+  --border-primary: #d1d1d1;
   --border-secondary: var(--color-gray-400);
   --border-tertiary: var(--color-gray-900);
   --border-focus: var(--color-gray-500);

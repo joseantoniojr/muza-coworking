@@ -1,7 +1,8 @@
 
-@import "./base/reset.css";
-@import "./base/variables.css";
-@import "components/header.css";
+@import "base/reset.css";
+@import "base/variables.css";
+@import "base/global.css";
 @import "components/cards.css";
+@import "sections/header.css";
 @import "sections/hero.css";
 @import "sections/about.css";
