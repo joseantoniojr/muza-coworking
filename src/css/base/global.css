@@ -1,0 +1,19 @@
+.section__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-component-3xl);
+}
+
+.section__header{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.section__title {
+    font-size: var(--typography-h2-size);
+}
+
+.section__description {
+    color: var(--text-secondary);
+}
