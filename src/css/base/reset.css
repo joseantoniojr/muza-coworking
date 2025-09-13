@@ -17,7 +17,7 @@ body{
     font-size: clamp(var(--typography-body-size, 1.6rem), 1vw + 1rem, 1.8rem);
     font-weight: var(--typography-body-weight, 400);
     line-height: var(--typography-body-line-height, 1.5);
-    color: var(--text-tertiary, #1F1F1F);
+    color: var(--text-tertiary, #555);
     background-color: var(--bg-primary, #FFF);
 }
 
@@ -40,10 +40,6 @@ a{
 button{
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-p{
-    margin-bottom: 1.6rem;
 }
 
 ol, ul{
