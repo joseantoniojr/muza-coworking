@@ -1,0 +1,38 @@
+.container{
+    max-width: var(--layout-max-width);
+    margin: 0 auto;
+}
+.about{
+    width: 100%;
+    background-color: var(--bg-primary);
+}
+
+.about__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: clamp(var(--spacing-component-md), 7.27vw - 0.73rem, var(--spacing-component-3xl));
+}
+
+.about__title{
+    font-size: var(--typography-h2-size);
+}
+
+.about__content{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--space-lg);
+}
+
+.about__text{
+    flex: 1 1 50%;
+}
+
+.about__block:not(:last-child), .about__subtitle{
+    margin-bottom: var(--space-xl);
+}
+
+.about__paragraph{
+    text-indent: 4rem;
+}
